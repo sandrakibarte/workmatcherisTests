@@ -1,10 +1,8 @@
 Feature: Test login functionality
 
   Scenario: google logo
-    Given launch chrome browser
-    When open google page
-    Then verify that logo is
-    And close browser
+    Given open google page
+    When verify that logo is
 
   Scenario: User logs in with valid credentials
     Given homepage is opened
